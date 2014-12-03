@@ -1,8 +1,10 @@
 #!/usr/bin/env perl6
 use JSON::Tiny;
-
+BEGIN {
 my $repo = CompUnitRepo::Local::Installation.new('.test');
 @*INC.unshift($repo);
+};
+my $repo = CompUnitRepo::Local::Installation.new('.test');
 sub install(Str $meta) {
   my %data = %(from-json($meta.IO.slurp));
   $repo.install(dist => class :: {method metainfo { %data }}, |%data<provides>.values);
