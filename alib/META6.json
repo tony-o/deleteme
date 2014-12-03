@@ -1,0 +1,10 @@
+{
+  "perl": "6.*.*",
+  "name": "a",
+  "version": "v1.0.0",
+  "description": "descript",
+  "provides": {
+    "a": "alib/a.pm6"
+  },
+  "auth": "zef:someotherguy"
+}

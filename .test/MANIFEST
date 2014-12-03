@@ -1,0 +1,70 @@
+{
+  "file-count" : 17,
+  "dist-count" : 3,
+  "dists" : [
+    {
+      "id" : 0,
+      "name" : "a",
+      "auth" : "zef:tonyo",
+      "ver" : "v1.0.0",
+      "description" : "descript",
+      "depends" : [ ],
+      "provides" : {
+        "a" : {
+          "pm6" : {
+            "file" : 12,
+            "time" : 1417643603,
+            "cver" : "2014.10-147-gb8246f1"
+          }
+        }
+      },
+      "files" : { },
+      "source-url" : null
+    },
+    {
+      "id" : 1,
+      "name" : "a",
+      "auth" : "zef:ugexe",
+      "ver" : "v1.0.0",
+      "description" : "descript",
+      "depends" : [ ],
+      "provides" : {
+        "a" : {
+          "pm6" : {
+            "file" : 13,
+            "time" : 1417643613,
+            "cver" : "2014.10-147-gb8246f1"
+          }
+        }
+      },
+      "files" : { },
+      "source-url" : null
+    },
+    {
+      "id" : 2,
+      "name" : "a",
+      "auth" : "zef:someotherguy",
+      "ver" : "v1.0.0",
+      "description" : "descript",
+      "depends" : [ ],
+      "provides" : {
+        "a" : {
+          "pm6" : {
+            "file" : 15,
+            "time" : 1417643990,
+            "cver" : "2014.10-147-gb8246f1"
+          }
+        },
+        "b" : {
+          "pm6" : {
+            "file" : 16,
+            "time" : 1417643982,
+            "cver" : "2014.10-147-gb8246f1"
+          }
+        }
+      },
+      "files" : { },
+      "source-url" : null
+    }
+  ]
+}

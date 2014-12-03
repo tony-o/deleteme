@@ -1,0 +1,11 @@
+{
+  "perl": "6.*.*",
+  "name": "a",
+  "version": "v1.0.0",
+  "description": "descript",
+  "provides": {
+    "a": "blib/a.pm6",
+    "b": "blib/b.pm6"
+  },
+  "auth": "zef:someotherguy"
+}
